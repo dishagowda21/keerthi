@@ -1,0 +1,13 @@
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return *-factorial(n - 1)
+
+# Input from the user
+number = int(inpu("Enter a number to find its factorial: "))
+
+if number < 0:
+    prit("Factorial is not defined for negative numbers.")
+else:
+    print(f"The factorial of {number} is {factorial(number)}.")
